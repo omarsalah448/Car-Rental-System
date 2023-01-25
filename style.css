@@ -1,0 +1,112 @@
+
+header {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    /*make header fixed at the top even when the user scrolls down*/
+    /* position: fixed; */
+    top: 1.1em;
+    width: 100%;
+}
+  
+a {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* adds a border line after each link */
+    border-right: 1px solid #bbb;
+}
+
+/* Change the link color to #111 (black) on hover */
+a:hover {
+    background-color: #111;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.margin_top {
+    margin-top: 5em;
+}
+
+label{
+    margin-top: 1em;
+    font-size: 18px;
+    font: bold;
+    font-family: monospace;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 200px;
+}
+
+input {
+    display: inline-block;
+    float: left;
+    width: 270px;
+    border: none;
+    border-bottom: 2px solid sandybrown;
+    clear: left;
+    margin-top: 1em;
+}
+
+.error_check {
+    margin-top: 1em;
+    /* font-size: 18px; */
+    font: bold;
+    font-family: monospace;
+    color:red;
+    display: inline-block;
+    float: left;
+    clear: left;
+    /* width: 200px; */
+}
+
+#submit_signup {
+    margin-top: 2em;
+    float: left;
+    clear: left;
+    margin-left: 5em;
+} 
+
+.btn {
+  background-color: sandybrown;
+  border-radius: 100px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-style: solid ;
+  border-color: #111;
+  border-width: 0.3em;
+}
+
+.btn:hover {
+  color: saddlebrown;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.jello {
+    width: 50%;
+    margin-top: 2em;
+    margin-left: 20em;
+}

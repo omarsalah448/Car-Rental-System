@@ -1,0 +1,33 @@
+.cardContainer
+{
+    flex: 1 1 1px;
+    margin-top: 10px;
+}
+.officeContainer
+{
+    flex: 1 1 1px;
+    margin-top: 10px;
+}
+.mainbar
+{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.NavDiv
+{
+    text-align: center;
+    margin: auto;
+    margin-left: 100px;
+}
+
+.mainbar2
+{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}

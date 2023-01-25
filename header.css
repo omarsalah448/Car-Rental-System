@@ -1,0 +1,11 @@
+.FirstDiv
+{
+    background-color: #F5F5F5;
+}
+.NavDiv
+{
+    margin: auto;
+    background-color: #F5F5F5;
+    margin-left: 100px;
+    display: flex;
+}

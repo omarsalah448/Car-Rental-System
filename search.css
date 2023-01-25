@@ -1,0 +1,37 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.verybigcontainer
+{
+    display: flex;
+    width: 100%;
+}
+.sidebar
+{
+    width: 30%;
+}
+.mainbar
+{
+    width: 80%;
+}
+.title
+{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+.input-group
+{
+    text-align: center;
+}
+.cardContainer
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.filters
+{
+    padding-left: 30px;
+}

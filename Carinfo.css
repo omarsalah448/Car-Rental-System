@@ -1,0 +1,102 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.Container
+{
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.List
+{
+  float: left;
+  width: 70%;
+}
+.Title
+{
+  float: right;
+}
+.Title h1
+{
+    float: right;
+}
+.NavBar
+{
+    width: 100%;
+    height: fit-content;
+}
+
+.container2
+{
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  width: 80%;
+  border-radius: 10px;
+  border: 10px;
+}
+body
+{
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 25px;
+  height: 100vh;
+}
+
+
+.container2
+{
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  width: 70%;
+  border-radius: 10px;
+  border: 10px;
+}
+label
+{
+  font-size: 20px;
+}
+.semi-Container
+{
+  width: 100%;
+  display: flex;
+}
+.semi-Container2
+{
+  margin: 0 auto;
+  width: 30%;
+}
+.semi-Container3
+{
+  margin: 0 auto;
+  width: 70%;
+}
+.data
+{
+  color: black;
+}
+button
+{
+  padding: 5px;
+  background-color:rgb(168, 168, 168);
+  border: 0;
+  float: right;
+  width: 140px;
+}

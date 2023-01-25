@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+body
+{
+    font-family: 'Lato','sans-serif';
+    
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+h1,h2
+{
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+p
+{
+    margin: 10px 0;
+}
+.NavBar
+{
+    background-color: darkmagenta;
+    height: 70px;
+    color: white;
+}
+.Container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.NavBar .flex
+{
+    justify-content: space-between;
+}
+.NavBar ul
+{
+    display: flex;
+}
+.NavBar a
+{
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+}
+.NavBar a:hover
+{
+    border-bottom: solid white 2px;
+}
+/*Show Case*/
+.ShowCase
+{
+    height: 330px;
+    background-color: darkmagenta;
+    color: white;
+    position: relative;
+} 
+.ShowCase::before,
+.ShowCase::after
+{
+    height: 120px;
+    bottom: -100px;
+    background-color: darkmagenta;
+    right: 0;
+    position: absolute;
+    bottom: -60px;
+    content: ' ';
+    left:  0;
+    width: 100%;
+    transform: skewY(-4deg);
+}
+.ShowCase h1
+{
+    font-size: 400px;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    
+    height: 100%;
+    gap: 50px;
+}
+
+.Showcase-card
+{
+    background-color: white;
+    padding: 20px;
+    overflow: visible;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    margin-top: 80px;
+    border: solid 0px white;
+    border-radius: 20px;
+    z-index: 100;
+}
+.Showcase-text
+{
+    margin-top: 50px;
+}
+form
+{
+    height: 270px;
+}
+.ShowCase .grid
+{
+    overflow: visible;
+}
+
+input
+{
+    border: none;
+    border-bottom: solid #444 1px;
+    width: 70%;
+    margin: 10px 20px;
+    font-size:15px;
+    
+}
+.submit-button
+{
+    background-color: darkmagenta;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 20px;
+
+}
+
+@media (max-width: 500px)
+{
+    .grid
+    {
+        grid-template-columns: 1fr;
+    }
+    .ShowCase::before,
+    .ShowCase::after{
+        transform: skewY(-0deg);
+        height: 0px;
+        bottom: -0px;
+    }
+    .Showcase-card
+    {
+    margin-top: 10px;
+    height: 300px;
+    }
+    .div-after
+    {
+    margin-bottom: 100px;
+    min-height: 100px;
+    background-color: orchid;
+    }
+    .desc
+    {
+        margin-top: 100px;
+    }
+   
+}
+
+
+
+@media (max-width: 780px)
+{
+    .grid
+    {
+        grid-template-columns: 1fr;
+        
+    }
+    .ShowCase::before,
+    .ShowCase::after{
+        transform: skewY(-0deg);
+        height: 0px;
+        bottom: -0px;
+    }
+    .Showcase-card
+    {
+    margin-top: 10px;
+    height: 300px;
+     }
+
+     
+     
+     .div-after
+     {
+     margin-bottom: 400px;
+     min-height: 200px;
+     }
+     .desc
+     {
+         margin-top: 500px;
+     }
+    }
+/*Box*/
+
+
+img
+{
+    width: 170px;
+    height: 150px;
+    margin-left: 20px;
+}
+.desc
+{
+    text-align: center; margin: 0 auto; padding: 0px 20%;
+}
